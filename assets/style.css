@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+
+/* NAVIGATION */
+.navigationbar{
+    background-color: #2f3640;
+}
+
+.navtoggler{
+    box-shadow: none;
+}
+
+.fname{
+    color: #ffb400;
+    font-family: Poppins, sans-serif;
+}
+
+#navhome, #navabout, #navproject, #navcontact{
+    color: white;
+    font-size: 1.05em;
+}
+
+#navhome:hover, #navabout:hover, #navproject:hover, #navcontact:hover{
+    border-bottom: 2px solid crimson;
+    padding: 5px;
+}
+
+.home{
+    color: crimson;
+}
+
+.about{
+    color: greenyellow;
+}
+
+.project{
+    color: yellow;
+}
+
+.contact{
+    color: skyblue;
+}
+/* NAVIGATION END */
+
+section{
+    padding-top: 3rem;
+}
+
+/* PROFILE HOME */
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    color: white;
+    animation: animate 15s ease-in-out infinite;
+    background-size: cover;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url(./media/coding3.jpg);
+    }
+    35%{
+        background-image: url(./media/coding2.jpg);
+    }
+    70%{
+        background-image: url(./media/coding.jpg);
+    }
+}
+/* PROFILE HOME END */
+
+/* ABOUT */
+
+.aboutText{
+    background-color: white;
+    width: 20%;
+    margin: auto;
+}
+
+.textRiwayat{
+    background-color: skyblue;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.4vmax;
+}
+/* ABOUT END */
+
+/* PROJECT */
+#project{
+    background-image: url(./media/coding4.jpg);
+}
+/* PROJECT END */
+
+/* CONTACT */
+#contact{
+    background-color: white;
+}
+
+#comment{
+    resize: none;
+}
+/* CONTACT END */
+
+/* FOOTER */
+#footer{
+    background-color: #2f3640;
+}
+/* FOOTER END */

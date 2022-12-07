@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portofolio - Muhammad Iqbal Rahmatullah</title>
+    <!-- ICON WEBSITE -->
+    <link rel="icon" href="./assets/media/logo.png" type="image/png" sizes="16x16">
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME CDN -->
+    <script src="https://kit.fontawesome.com/72870f3ff2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NAVIGATION  -->
+    <nav class="navbar navbar-expand-sm p-2 fixed-top navigationbar">
+        <!-- LOGO POJOK KIRI -->
+        <a class="navbar-brand fs-3 ms-3 text-white"> <span class="fname">IQBAL</span> RAHMATULLAH </a>
+        <!-- LOGO POJOK KIRI END -->
+
+        <!-- TOGGLER UNTUK DEVICE KECIL -->
+        <button class="navbar-toggler me-3 text-white navtoggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <i class="fa fa-bars fa-md"></i>
+        </button>
+        <!-- TOGGLER END -->
+
+        <!-- MENU NAVBAR -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto" >
+                <li class="nav-item">
+                    <a class="nav-link mx-3" id="navhome" href="#home"><i class="fa fa-home home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" id="navabout" href="#about"><i class="fa fa-user about"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" id="navproject" href="#project"><i class="fa fa-tasks project"></i> Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-3" id="navcontact" href="#contact"><i class="fa fa-headset contact"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- MENU NAVBAR END -->
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <!-- HOME PROFILE -->
+    <div id="home" class="jumbotron text-center">
+        <!-- FOTO PROFILE -->
+        <img src="./assets/media/profile.jpg" alt="Fotoku" width="200" class="rounded-circle img-thumbnail">
+        <!-- FOTO PROFILE END -->
+
+        <!-- NAMA + TAGLINE -->
+        <h1 class="fs-4 mt-2">Muhammad Iqbal Rahmatullah</h1>
+        <p style="color: #ffb400;">Student at IT PENS</p>
+        <!-- NAMA + TAGLINE END -->
+
+        <!-- SOSMED -->
+        <div class="ms-auto">
+            <a class="mx-1" href="https://www.instagram.com/iqbal.rahmatullah/" target="_blank" style="color: crimson;"><i class="fa fa-instagram fa-xl"></i></a>
+            <a class="mx-1" href="https://wa.me/6281231685459" target="_blank" style="color: greenyellow;"><i class="fa fa-whatsapp fa-xl"></i></a>
+            <a class="mx-1" href="https://t.me/iqbal_rahmatullah" target="_blank" style="color: skyblue;"><i class="fa fa-telegram fa-xl"></i></a>
+            <a class="mx-1" href="https://github.com/iqbal-rahmatullah" target="_blank" style="color: antiquewhite;"><i class="fa fa-github fa-xl"></i></a>
+        </div>
+        <!-- END SOSMED -->
+
+        <!-- BUTTON CLICK HERE -->
+        <button class="btn btn-success my-3" data-bs-toggle="modal" data-bs-target="#codeModal">Click Me <i class="fa fa-code"></i></button>
+        <div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <code>console.log("Hello World");</code><br>
+                        <code>printf("Hello World !);</code><br>
+                        <code>print("Hello World !);</code><br>
+                        <code>&lt;? php echo "Hello World!"; ?&gt;</code><br>
+                        <code>cout &lt;&lt; "Hello World!";</code><br>
+                        <code>puts 'Hello World!'</code><br>
+                        <code>System.out.println("Hello World!");</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BUTTON CLICK HERE END -->
+    </div>
+    <!-- HOME PROFILE END -->
+
+    <!-- ABOUT -->
+    <section id="about" style="background-color: #ffb400;">
+        <div class="container px-3 py-4">
+            <!-- JUDUL ABOUT -->
+            <div class="row text-center mb-4">
+                <div class="col-md-12">
+                    <h3 class="mt-2 text-black py-1 rounded-2 aboutText"><i class="fa fa-user-circle-o fa-md"></i> About</h3>
+                </div>
+            </div>
+            <!-- JUDUL ABOUT END -->
+
+
+            <div class="row mb-5">
+                <!-- PERKENALAN -->
+                <div class="col-md-7">
+                    <p  class="text-white p-3 bg-warning rounded-2">Perkenalkan nama saya Muhammad Iqbal Rahmatullah, salah satu mahasiswa di PENS Surabaya jurusan Teknik Informatika. Tujuan hidup saya adalah menjadi manusia yang terampil dalam dunia IT dan tidak lupa akan kewajiban sebagai seorang muslim.</p>
+                </div>
+                <!-- PERKENALAN END -->
+
+                <!-- RIWAYAT PENDIDIKAN -->
+                <div class="col-md-5">
+                    <h6 class="p-2 rounded-2 text-white textRiwayat"><i class="fa fa-history"></i> Riwayat pendidikan</h5>
+                    <ul class="text-white py-2 rounded-2" style="background-color: skyblue;">
+                        <li>MI Candi</li>
+                        <li>MTSN 1 Sidoarjo</li>
+                        <li>SMA Muhammadiyah 3 Tulangan</li>
+                    </ul>
+                </div>
+                <!-- RIWAYAT PENDIDIKAN END -->
+            </div>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- PROJECT -->
+    <section id="project">
+        <div class="container py-4">
+            <!-- JUDUL PROJECT -->
+            <div class="row text-center">
+                <div class="col p-3 text-white">
+                    <h2><i class="fa fa-tasks rounded-circle"></i> My Project</h2>
+                    <hr>
+                </div>
+            </div>
+            <!-- JUDUL PROJECT END -->
+            <div class="row pb-5">
+                <!-- PROJECT 1 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./assets/media/webprofile.png" class="card-img-top" height="200" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title text-center">Web Portofolio</h5>
+                          <hr>
+                          <p class="card-text">Dalam rangka memenuhi tugas project akhir mata kuliah Workshop Desain Web</p>
+                          <a href="#" class="btn btn-outline-secondary"><i class="fa fa-desktop"></i> View</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- PROJECT 1 END -->
+
+                <!-- PROJECT 2 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./assets/media/webprofile2.png" class="card-img-top" height="200" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title text-center">Webprofile</h5>
+                          <hr>
+                          <p class="card-text">Dalam rangka memenuhi tugas project-1 mata kuliah Workshop Desain Web</p>
+                          <a href="https://iqbal-rahmatullah.github.io/webprofile/" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-desktop"></i> View</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- PROJECT 2 END -->
+
+                <!-- PROJECT 3 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./assets/media/blog.png" class="card-img-top" height="200" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Blog</h5>
+                          <hr>
+                          <p class="card-text">Dalam rangka memenuhi tugas mata kuliah Konsep Teknologi Informasi</p>
+                          <a href="http://iqbalrahmatullah.it.student.pens.ac.id/" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-desktop"></i> View</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- PROJECT 3 END -->
+
+                <!-- PROJECT 4 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card">
+                        <img src="./assets/media/sertifikat.png" class="card-img-top" height="200" alt="...">
+                        <div class="card-body text-center">
+                          <h5 class="card-title text-center">Panitia Webinar</h5>
+                          <hr>  
+                          <p class="card-text">Dengan tema "Mengenal Cyber Security" untuk memenuhi tugas mata kuliah Dasar Sistem Informasi</p>
+                          <a href="https://drive.google.com/file/d/1l5_4608LZ8bHGHh1ExOCVEKek1Z6mg22/view?usp=sharing" target="_blank" class="btn btn-outline-secondary"><i class="fa fa-desktop"></i> View</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- PROJECT 4 END -->
+            </div>
+        </div>
+    </section>
+    <!-- END PROJECT -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container pb-5">
+            <!-- JUDUL CONTACT -->
+            <div class="row text-center p-3 justify-content-center">
+                <div class="col-md-2 bg-warning rounded-2 p-1 shadow-lg">
+                    <h4><i class="fa fa-headset"></i> Contact</h3>
+                </div>
+            </div>
+            <!-- JUDUL CONTACT END -->
+            <div class="row pb-3 mx-2">
+                <!-- DETAIL DIRI -->
+                <div class="col-lg-4 bg-warning fs-6 p-3 shadow-lg">
+                    <h5 class="text-center">Mari saling berkirim pesan!</h5><hr>
+                    <p><i class="fa fa-envelope"></i> iqbalrahmatullah8@gmail.com</p>
+                    <p><i class="fa fa-whatsapp"></i> 0812 3168 5459</p>
+                    <p><i class="fa fa-instagram"></i> iqbal.rahmatullah</p>
+                    <p><i class="fa fa-map-location-dot"></i> Candi, Sidoarjo</p>
+                </div>
+                <!-- DETAIL DIRI END -->
+
+                <!-- FORM CONTACT -->
+                <div class="col-lg-8 bg-white bg-gradient p-3 border shadow-lg">
+                    <form>
+                        <div class="mb-3 mt-3">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Masukkan email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                          <label for="nama">Nama lengkap:</label>
+                          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama" name="nama" required>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="comment">Pesan:</label>
+                            <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary px-5"><i class="fa fa-paper-plane"></i> Kirim</button>
+                        </div>
+                      </form>
+                </div>
+                <!-- FORM CONTACT END -->
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="p-3 text-center">
+        <div class="m-3">
+            <a class="mx-1" href="https://www.instagram.com/iqbal.rahmatullah/" target="_blank" style="color: #ffb400;"><i class="fa fa-instagram fa-xl"></i></a>
+            <a class="mx-1" href="https://wa.me/6281231685459" target="_blank" style="color: #ffb400;"><i class="fa fa-whatsapp fa-xl"></i></a>
+            <a class="mx-1" href="https://t.me/iqbal_rahmatullah" target="_blank" style="color: #ffb400;"><i class="fa fa-telegram fa-xl"></i></a>
+            <a class="mx-1" href="https://github.com/iqbal-rahmatullah" target="_blank" style="color: #ffb400;"><i class="fa fa-github fa-xl"></i></a>
+        </div>
+        <h6 class="text-white m-2">Copyright &copy; 2022 <a href="#" style="text-decoration: none; color: white;">Muhammad Iqbal Rahmatullah</a></h6>
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
